@@ -7,7 +7,7 @@ def on_ board?(number)
     
 def valid move?(board,index)
 def position_taken?(board,index)
-  if(board[index]==" ")||board[index]==" "||board[index]==nil||board[index]==""
+  if(board[index]==" ")||board[index]==" "||board[index]==nil
     taken=false
   else
     taken=true
