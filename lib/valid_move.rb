@@ -9,7 +9,6 @@ return true
 else
   return false
 end
-end
 
 def position_taken?(board,index)
   if(board[index]==" ")||board[index]==" "||board[index]==nil||board[index]==""
