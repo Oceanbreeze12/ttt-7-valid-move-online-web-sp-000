@@ -1,5 +1,5 @@
-def valid move?(board,index)
-def position_taken?(board,index)
+def valid_ move?(board,index)
+def position_taken?(array,index)
   if(board[index]==" ")||board[index]==" "||board[index]==nil
     taken=false
   else
